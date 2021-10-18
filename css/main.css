@@ -179,9 +179,8 @@ body {
     background-color: #f0f4f8;
     padding-top: 2rem;
     padding-bottom: 6rem;
-    height: 50rem;
 
-    margin-top: -500px;
+    margin-top: -75rem;
     transition: margin-top 0.5s;
 }
 
@@ -229,16 +228,104 @@ body {
     margin-bottom: 4rem;
 }
 
-.sony-site-list {
-    margin-bottom: 5rem;
+
+.sony-site-box{
+    position:relative;
+    display: block;
+    width: 36.8rem;
+    margin-right: 4rem;
+
+    float: left;
 }
+
+.sony-site-box > a{
+    display: block;
+    width: 100%;
+    margin-bottom: 5rem
+}
+
+.sony-site-box>a:hover{
+    opacity: 0.9;
+}
+
+.sony-site-list {
+    position: relative;
+    display: block;
+    width: 100%;
+
+}
+
+.sony-site-box:last-child{
+    margin-right: 0;
+}
+
+
+
+.sony-site-list-img{
+    position:relative;
+    display: block;
+    width: 36.8rem;
+}
+
+.sony-site-list-subtit{
+    color: #2f353d;
+    font-family: 'SST W01 medium',"Malgun Gothic", sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 0.012rem;
+    line-height: 1.8rem;
+    font-weight: 500;    
+    text-transform: uppercase;
+}
+
+
 
 .sony-site-cate {
+    position: relative;
+    display: block;
+    
     background-color: #fff;
-
-    margin-bottom: 5rem;
+    padding: 2rem 4.5rem;
+    margin-bottom: 0;
 }
 
+.sony-site-row{
+    display: block;
+}
+
+.sony-site-cate-box{
+    position: relative;
+    display: block;
+    width: 25%;
+    float: left;
+
+    font-size: 0;
+    margin-bottom: 2.1rem;
+    
+}
+
+
+.sony-site-cate-box > span{
+    position: relative;
+    font-family: 'SST W01 Roman',"Malgun Gothic", sans-serif;
+    color: rgba(93,88,245);
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 2.0rem;
+    letter-spacing: normal;
+    Vertical-align: center;
+    
+
+    cursor: pointer
+}
+.sony-site-cate-box > p{
+    position: relative;
+    font-family: 'SST W01 Roman',"Malgun Gothic", sans-serif;
+    color: #504d56;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+
+}
 /* 상단 */
 .header {
     position: relative;
